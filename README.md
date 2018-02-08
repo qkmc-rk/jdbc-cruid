@@ -24,10 +24,10 @@ mysql-connector-java-5.1.45-bin.jar
 - 传入方法的参数即可(默认已实现方法).
 
 ### 结构
-- com.rk
--      |--dao
--         |   |--Interface RootDao
--         |   |--Abstract class JdbcRootDao
--         |
--         |--util
--             |--JDBCUtil
+ com.rk
+      |--dao
+         |   |--Interface RootDao
+         |   |--Abstract class JdbcRootDao
+         |
+         |--util
+             |--JDBCUtil
