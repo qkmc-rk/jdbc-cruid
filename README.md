@@ -1,11 +1,11 @@
 # jdbc-cruid
-简单地封装了jdbc,使用类似于spring-jsbc
+简单地封装了jdbc,使用类似于spring-jdbc
 
 
 ### 功能
 - 封装了 四个简单的增删改查
 - 查找一组(list)
-- batch查询
+- batch操作
 
 ### 特色
 - 使用dbcp2连接池,轻量,性能虽不强,但与JDBC天生一对.
@@ -24,10 +24,10 @@ mysql-connector-java-5.1.45-bin.jar
 - 传入方法的参数即可(默认已实现方法).
 
 ### 结构
-com.rk
-     |--dao
-	 |   |--Interface RootDao
-	 |   |--Abstract class JdbcRootDao
-	 |
-	 |--util
-	     |--JDBCUtil
+- com.rk
+-      |--dao
+-         |   |--Interface RootDao
+-         |   |--Abstract class JdbcRootDao
+-         |
+-         |--util
+-             |--JDBCUtil
